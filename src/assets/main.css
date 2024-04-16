@@ -1,0 +1,20 @@
+@import './base.css';
+
+:root {
+  --button-color: #384252;
+  --button-default-border-color: #e5e7eb;
+  --button-default-bg-color: #fff;
+  --button-hover-border-color: #d0d5dc;
+  --button-hover-bg-color: #f3f4f6;
+  --button-active-border-color: #d0d5dc;
+  --button-active-bg-color: #e5e7eb;
+  --button-disabled-color: #9ca3b0;
+}
+
+button {
+  font: inherit;
+}
+
+button:focus {
+  outline: none;
+}
